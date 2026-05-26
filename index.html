@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Logic Gate Informática e Assistência Técnica — Reparo de notebooks, montagem de PC Gamer, smartphones e impressoras em João Pessoa, PB.">
+  <title>Logic Gate — Informática & Assistência Técnica</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav>
+    <div class="logo">
+      <div class="logo-icon">
+        <svg viewBox="0 0 16 16" fill="white">
+          <path d="M2 4h3v2H2V4zm0 3h3v2H2V7zm0 3h3v2H2v-2zm4-6h3v2H6V4zm0 3h3v2H6V7zm4-3h4v8h-4V4z" />
+        </svg>
+      </div>
+      Logic Gate
+    </div>
+
+    <ul>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="https://wa.me/5583998654933" class="nav-cta">WhatsApp</a></li>
+    </ul>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ─── MOBILE MENU ─── -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#servicos">Serviços</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+    <a href="https://wa.me/5583998654933">WhatsApp ↗</a>
+  </div>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span>●</span> Atendimento em João Pessoa e região
+      </div>
+      <h1>Seu equipamento<br>nas mãos de <em>especialistas</em></h1>
+      <p class="hero-sub">Mais de 10 anos de experiência em manutenção de notebooks, computadores, smartphones e impressoras. Rápido, transparente e com garantia.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/5583998654933" class="btn-primary">
+          <svg width="16" height="16" fill="white" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.117 1.523 5.845L0 24l6.338-1.501A11.946 11.946 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.804 9.804 0 01-5.031-1.387l-.361-.214-3.762.891.948-3.659-.235-.375A9.79 9.79 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182c5.431 0 9.818 4.388 9.818 9.818 0 5.431-4.387 9.818-9.818 9.818z" />
+          </svg>
+          Falar no WhatsApp
+        </a>
+        <a href="#servicos" class="btn-ghost">Ver serviços →</a>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-num" data-count="5" data-decimals="1">0.0</span>
+          <span class="stat-label stars">★★★★★</span>
+          <span class="stat-label">no Google</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="400" data-prefix="+">0</span>
+          <span class="stat-label">clientes</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="10" data-suffix="+">0</span>
+          <span class="stat-label">anos de exp.</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">JP</span>
+          <span class="stat-label">e região</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SERVICES ─── -->
+  <section id="servicos">
+    <div class="container">
+      <p class="section-label reveal">O que fazemos</p>
+      <h2 class="reveal">Serviços completos<br>de informática</h2>
+      <p class="section-desc reveal">Do reparo rápido à montagem completa, atendemos todas as suas necessidades de tecnologia.</p>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8A2.5 2.5 0 0 1 17.5 16h-11A2.5 2.5 0 0 1 4 13.5v-8Z" />
+              <path d="M8 21h8" />
+              <path d="M12 16v5" />
+            </svg>
+          </div>
+          <h3>Reparo de Notebooks</h3>
+          <p>Tela quebrada, não liga, superaquecimento, teclado, bateria. Diagnóstico gratuito e orçamento sem compromisso.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M4 4h16v10H4z" />
+              <path d="M8 20h8" />
+              <path d="M12 14v6" />
+            </svg>
+          </div>
+          <h3>Montagem de PC Gamer</h3>
+          <p>Montamos o computador ideal para o seu uso e orçamento. Peças selecionadas com garantia de procedência.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M8 2.5h8A2.5 2.5 0 0 1 18.5 5v14A2.5 2.5 0 0 1 16 21.5H8A2.5 2.5 0 0 1 5.5 19V5A2.5 2.5 0 0 1 8 2.5Z" />
+              <path d="M10 18h4" />
+            </svg>
+          </div>
+          <h3>Reparo em Smartphones</h3>
+          <p>Troca de tela, bateria, conector de carga. Atendemos as principais marcas do mercado.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M7 8V3h10v5" />
+              <path d="M6 18H5a3 3 0 0 1-3-3v-3a4 4 0 0 1 4-4h12a4 4 0 0 1 4 4v3a3 3 0 0 1-3 3h-1" />
+              <path d="M7 14h10v7H7z" />
+              <path d="M18 12h.01" />
+            </svg>
+          </div>
+          <h3>Manutenção de Impressoras</h3>
+          <p>Limpeza, troca de cartucho, configuração de rede e reparo em impressoras de pequeno e médio porte.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 15.5A3.5 3.5 0 1 0 12 8a3.5 3.5 0 0 0 0 7.5Z" />
+              <path d="M19.4 15a1.8 1.8 0 0 0 .36 1.98l.05.05a2 2 0 1 1-2.83 2.83l-.05-.05A1.8 1.8 0 0 0 15 19.4a1.8 1.8 0 0 0-1 .6V20a2 2 0 1 1-4 0v-.08a1.8 1.8 0 0 0-1-.6 1.8 1.8 0 0 0-1.98.36l-.05.05a2 2 0 1 1-2.83-2.83l.05-.05A1.8 1.8 0 0 0 4.6 15a1.8 1.8 0 0 0-.6-1H4a2 2 0 1 1 0-4h.08a1.8 1.8 0 0 0 .6-1 1.8 1.8 0 0 0-.36-1.98l-.05-.05a2 2 0 1 1 2.83-2.83l.05.05A1.8 1.8 0 0 0 9 4.6a1.8 1.8 0 0 0 1-.6V4a2 2 0 1 1 4 0v.08a1.8 1.8 0 0 0 1 .6 1.8 1.8 0 0 0 1.98-.36l.05-.05a2 2 0 1 1 2.83 2.83l-.05.05A1.8 1.8 0 0 0 19.4 9c.2.38.38.72.6 1H20a2 2 0 1 1 0 4h-.08a1.8 1.8 0 0 0-.52 1Z" />
+            </svg>
+          </div>
+          <h3>Manutenção Preventiva</h3>
+          <p>Limpeza interna, troca de pasta térmica, formatação e instalação de programas. Deixe seu computador como novo.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="m14.7 6.3 3-3a4 4 0 0 1-5 5l-7.4 7.4a2 2 0 1 0 3 3l7.4-7.4a4 4 0 0 1 5-5l-3 3" />
+            </svg>
+          </div>
+          <h3>Visita Técnica</h3>
+          <p>Atendemos em domicílio ou empresa em João Pessoa e cidades vizinhas. Agende sua visita técnica.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WHY / SOBRE ─── -->
+  <section id="sobre">
+    <div class="container">
+      <div class="why-grid">
+        <div>
+          <p class="section-label reveal">Por que nos escolher</p>
+          <h2 class="reveal">Experiência e<br>transparência</h2>
+          <p class="section-desc reveal" style="margin-bottom: 2rem;">Somos especialistas em manutenção e reparo com mais de 10 anos de experiência no mercado.</p>
+          <ul class="why-list">
+            <li class="why-item reveal">
+              <div class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                  <path d="M20 6 9 17l-5-5" />
+                </svg></div>
+              <div>
+                <h4>Diagnóstico sem custo</h4>
+                <p>Avaliamos seu equipamento gratuitamente antes de qualquer serviço.</p>
+              </div>
+            </li>
+            <li class="why-item reveal">
+              <div class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg></div>
+              <div>
+                <h4>Garantia nos serviços</h4>
+                <p>Todos os reparos possuem garantia. Fazemos certo da primeira vez.</p>
+              </div>
+            </li>
+            <li class="why-item reveal">
+              <div class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                  <path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" />
+                </svg></div>
+              <div>
+                <h4>Atendimento ágil</h4>
+                <p>Priorizamos velocidade sem abrir mão da qualidade do reparo.</p>
+              </div>
+            </li>
+            <li class="why-item reveal">
+              <div class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                  <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8Z" />
+                </svg></div>
+              <div>
+                <h4>Comunicação direta</h4>
+                <p>Você acompanha o andamento do serviço pelo WhatsApp em tempo real.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="why-visual reveal">
+          <div class="rating-big">
+            <div class="num">5.0</div>
+            <div class="stars">★★★★★</div>
+            <div class="label">+400 clientes atendidos</div>
+          </div>
+          <div class="review-card">
+            <span class="stars">★★★★★</span>
+            <p>"Presta um excelente serviço. Muito responsável e um ótimo preço."</p>
+            <span class="reviewer">— Cliente verificado</span>
+          </div>
+          <div class="review-card">
+            <span class="stars">★★★★★</span>
+            <p>"Profissionais super atenciosos e muito prestativos."</p>
+            <span class="reviewer">— Cliente verificado</span>
+          </div>
+          <div class="review-card">
+            <span class="stars">★★★★★</span>
+            <p>"Excelente técnico, serviços de qualidade."</p>
+            <span class="reviewer">— Cliente verificado</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contato">
+    <div class="container">
+      <p class="section-label reveal">Fale conosco</p>
+      <h2 class="reveal">Vamos resolver<br>o seu problema</h2>
+      <p class="section-desc reveal">Traga seu equipamento ou agende uma visita técnica.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item reveal">
+            <div class="contact-item-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+                <path d="M12 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+              </svg></div>
+            <div>
+              <h4>Endereço</h4>
+              <p>R. Dr. Manoel Lopes de Carvalho, 494<br>Sala 09 — Ernesto Geisel<br>João Pessoa — PB, 58075-427</p>
+            </div>
+          </div>
+          <div class="contact-item reveal">
+            <div class="contact-item-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                <path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 11.2 19a19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.7 2.6a2 2 0 0 1-.4 2.1L8.1 9.7a16 16 0 0 0 6.2 6.2l1.3-1.3a2 2 0 0 1 2.1-.4c.8.3 1.7.6 2.6.7a2 2 0 0 1 1.7 2Z" />
+              </svg></div>
+            <div>
+              <h4>Telefone / WhatsApp</h4>
+              <a href="tel:+5583998654933">(83) 99865-4933</a>
+            </div>
+          </div>
+          <div class="contact-item reveal">
+            <div class="contact-item-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 2" />
+              </svg></div>
+            <div>
+              <h4>Horário de Funcionamento</h4>
+              <div class="hours-grid">
+                <span class="day">Seg – Sex</span><span class="time">08:00 – 18:00</span>
+                <span class="day">Sábado</span><span class="time">08:00 – 13:00</span>
+                <span class="day">Domingo</span><span class="time">Fechado</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-item reveal">
+            <div class="contact-item-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <path d="M17.5 6.5h.01" />
+              </svg></div>
+            <div>
+              <h4>Instagram</h4>
+              <a href="https://www.instagram.com/logicgateinformatica" target="_blank" rel="noopener">@logicgateinformatica</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-box reveal">
+          <div>
+            <h3>Precisa de ajuda agora?</h3>
+            <p>Fale diretamente com nosso técnico pelo WhatsApp. Resposta rápida, sem enrolação.</p>
+          </div>
+          <a href="https://wa.me/5583998654933" class="btn-white">
+            <svg width="18" height="18" fill="#2563eb" viewBox="0 0 24 24">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.117 1.523 5.845L0 24l6.338-1.501A11.946 11.946 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.804 9.804 0 01-5.031-1.387l-.361-.214-3.762.891.948-3.659-.235-.375A9.79 9.79 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182c5.431 0 9.818 4.388 9.818 9.818 0 5.431-4.387 9.818-9.818 9.818z" />
+            </svg>
+            Iniciar conversa
+          </a>
+          <p style="font-size: 0.8rem; color: rgba(255,255,255,0.55);">Ou ligue: (83) 99865-4933</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <div class="logo" style="font-size: 1rem;">
+      <div class="logo-icon">
+        <svg viewBox="0 0 16 16" fill="white">
+          <path d="M2 4h3v2H2V4zm0 3h3v2H2V7zm0 3h3v2H2v-2zm4-6h3v2H6V4zm0 3h3v2H6V7zm4-3h4v8h-4V4z" />
+        </svg>
+      </div>
+      Logic Gate
+    </div>
+    <p>© 2026 Logic Gate Informática e Assistência Técnica</p>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/logicgateinformatica" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/5583998654933">WhatsApp</a>
+    </div>
+  </footer>
+
+  <!-- ─── WHATSAPP FAB ─── -->
+  <a href="https://wa.me/5583998654933" class="fab" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.117 1.523 5.845L0 24l6.338-1.501A11.946 11.946 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.804 9.804 0 01-5.031-1.387l-.361-.214-3.762.891.948-3.659-.235-.375A9.79 9.79 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182c5.431 0 9.818 4.388 9.818 9.818 0 5.431-4.387 9.818-9.818 9.818z" />
+    </svg>
+  </a>
+
+  <!-- Scripts -->
+  <script src="main/main.js"></script>
+</body>
+
+</html>
